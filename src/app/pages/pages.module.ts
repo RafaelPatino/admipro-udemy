@@ -18,6 +18,7 @@ import { ChartsModule } from 'ng2-charts';
 
 // grafico donnas
 import { GraficoDonaComponent } from '../components/graficoDona/graficoDona.component';
+import { AccountSettingComponent } from './account-setting/account-setting.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { GraficoDonaComponent } from '../components/graficoDona/graficoDona.comp
         ProgressComponent,
         Graficas1Component,
         IncrementadorComponent,
-        GraficoDonaComponent
+        GraficoDonaComponent,
+        AccountSettingComponent
     ],
     exports: [
         PagesComponent,
